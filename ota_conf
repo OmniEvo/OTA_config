@@ -1,5 +1,5 @@
 #Common OTA url for all devices
-ota_url=https://raw.githubusercontent.com/OmniEvo/OTA_config/master/OmniEvoOTA.xml
+ota_url=https://github.com/OmniEvo/OTA_config/master/OmniEvoOTA.xml
 release_type=Stable
 device_name=ro.product.device
  
