@@ -10,7 +10,7 @@
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View OmniEvo changelogs"></ChangelogUrl>
+                description="View OmniEvo changelogs">https://github.com/OmniEvo/OTA_config/blob/master/Changelogs/Shamu/Changelog.txt</ChangelogUrl>
             <GappsUrl
                 id="gapps"
                 title="Gapps"
