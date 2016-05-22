@@ -2,11 +2,11 @@
      05-22-2016
 ====================
    * OTA_config/
-0cdfbff  changelog or shamu 20/05/2016  [Leonevo]
+0cdfbff  changelog for shamu 20/05/2016  [Leonevo]
    * android/
 83d4aa0  Update default.xml  [Leonevo]
    * frameworks/base/
-1922c9a  fix sensor  [EvoMagix]
+1922c9a  fix sensors  [EvoMagix]
 4ff6167  sensors: Create bool to select what timestamp to use  [EvoMagix]
    * vendor/omni/
 a81c093  This is OmniEvo!  [EvoMagix]
