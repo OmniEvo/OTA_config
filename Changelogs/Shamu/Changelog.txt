@@ -1,7 +1,37 @@
 ====================
-     05-20-2016
+     05-22-2016
+====================
+   * OTA_config/
+0cdfbff  changelog or shamu 20/05/2016  [Leonevo]
+   * android/
+83d4aa0  Update default.xml  [Leonevo]
+   * frameworks/base/
+1922c9a  fix sensor  [EvoMagix]
+4ff6167  sensors: Create bool to select what timestamp to use  [EvoMagix]
+   * vendor/omni/
+a81c093  This is OmniEvo!  [EvoMagix]
+500460e  update chromium to version 52.0.2725.0  [EvoMagix]
+bbfdcbf  Add configurations for default  [EvoMagix]
+
+====================
+     05-21-2016
 ====================
 
+   * system/core/
+5f74650  Merge "fs_mgr: Skip filesystem check unless fs_type matches" into android-6.0  [Gerrit Code Review]
+
+====================
+     05-20-2016
+====================
+   * OTA_config/
+5299ac0  Update OmniEvoOTA.xml  [Leonevo]
+38ad0ca  Update OmniEvoOTA.xml  [Leonevo]
+12a62dc  Update OmniEvoOTA.xml  [Leonevo]
+5de190f  Update OmniEvoOTA.xml  [Leonevo]
+689111a  Update OmniEvoOTA.xml  [Leonevo]
+d7e9e4c  Create Changelog.txt  [Leonevo]
+d6b21c4  Update ota_conf  [Leonevo]
+0481e25  Update ota_conf  [Leonevo]
    * android/
 3c18b71  Add SlimOTA (3/3)  [Leonevo]
    * build/
@@ -23,20 +53,27 @@ cb63938  Merge "init: Add support for gzipped firmware files" into android-6.0  
      05-19-2016
 ====================
 
+   * system/core/
+8808bec  fs_mgr: Skip filesystem check unless fs_type matches  [maxwen]
+   * system/vold/
+c879edb  vold: add lib deps  [maxwen]
 
 ====================
      05-18-2016
 ====================
-
+   * OTA_config/
+ce291da  Set OmniEvo  [Leonevo]
+b1489a3  Set OmniEvo  [Leonevo]
    * bootable/recovery/
 35df638  crypto: remove redundant convert_key_to_hex_ascii call  [Captain Throwback]
+   * system/core/
+9f16578  fs_mgr: Change f2fs path  [Menno van Grinsven]
 
 ====================
      05-17-2016
 ====================
-
-   * system/core/
-9f16578  fs_mgr: Change f2fs path  [Menno van Grinsven]
+   * OTA_config/
+bd3d858  onepluses: update for framboise  [Martinusbe]
    * vendor/omni/
 ff89a94  Change default wallpaper  [EvoMagix]
 
@@ -54,20 +91,3 @@ e73004a  Remove OpenDelta for now, update Chromium and add EVOMAGIX  [EvoMagix]
 ====================
      05-15-2016
 ====================
-
-
-====================
-     05-14-2016
-====================
-
-
-====================
-     05-13-2016
-====================
-
-   * build/
-a5c5d61  Add EvoMagix Team  [EvoMagix]
-   * frameworks/base/
-37e3bc9  base: remove merge derp  [EvoMagix]
-   * frameworks/native/
-0ade84d  native: sync dalvik config dalvik.vm.heapstartsize  [Max Weninger]
