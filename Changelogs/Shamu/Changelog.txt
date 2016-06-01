@@ -1,93 +1,75 @@
 ====================
-     05-22-2016
-====================
-   * OTA_config/
-0cdfbff  changelog for shamu 20/05/2016  [Leonevo]
-   * android/
-83d4aa0  Update default.xml  [Leonevo]
-   * frameworks/base/
-1922c9a  fix sensors  [EvoMagix]
-4ff6167  sensors: Create bool to select what timestamp to use  [EvoMagix]
-   * vendor/omni/
-a81c093  This is OmniEvo!  [EvoMagix]
-500460e  update chromium to version 52.0.2725.0  [EvoMagix]
-bbfdcbf  Add configurations for default  [EvoMagix]
-
-====================
-     05-21-2016
+     06-01-2016
 ====================
 
-   * system/core/
-5f74650  Merge "fs_mgr: Skip filesystem check unless fs_type matches" into android-6.0  [Gerrit Code Review]
-
-====================
-     05-20-2016
-====================
-   * OTA_config/
-5299ac0  Update OmniEvoOTA.xml  [Leonevo]
-38ad0ca  Update OmniEvoOTA.xml  [Leonevo]
-12a62dc  Update OmniEvoOTA.xml  [Leonevo]
-5de190f  Update OmniEvoOTA.xml  [Leonevo]
-689111a  Update OmniEvoOTA.xml  [Leonevo]
-d7e9e4c  Create Changelog.txt  [Leonevo]
-d6b21c4  Update ota_conf  [Leonevo]
-0481e25  Update ota_conf  [Leonevo]
-   * android/
-3c18b71  Add SlimOTA (3/3)  [Leonevo]
-   * build/
-da52ab8  Merged branch evoM into evoM  [EvoMagix]
-c3bfd3c  Add changelog  [EvoMagix]
-4f4c01d  Add OmniEvo OTA (2/3)  [EvoMagix]
    * packages/apps/Settings/
-8807946  Add OmniEvo OTA (2/3)  [EvoMagix]
-   * packages/apps/SlimOTA/
-d90eb76  Merge branch 'master' of github.com:OmniEvo/packages_apps_SlimOTA  [EvoMagix]
-316b842  OmniEvo OTA  [EvoMagix]
-044fad6  Initial commit  [Leonevo]
-   * system/core/
-cb63938  Merge "init: Add support for gzipped firmware files" into android-6.0  [Gerrit Code Review]
-   * vendor/omni/
-715720c  Add OmniEvo OTA (1/3), add changelog (1/2) and fix wallpaper  [EvoMagix]
+b594f3d  Enable Development Settings By Default regardless of build type  [EvoMagix]
+0b6c3ae  add additional battery saver steps  [EvoMagix]
+855aa7a  Remove all Google Legal Information, System Update Settings  [EvoMagix]
 
 ====================
-     05-19-2016
+     05-31-2016
 ====================
 
-   * system/core/
-8808bec  fs_mgr: Skip filesystem check unless fs_type matches  [maxwen]
-   * system/vold/
-c879edb  vold: add lib deps  [maxwen]
 
 ====================
-     05-18-2016
-====================
-   * OTA_config/
-ce291da  Set OmniEvo  [Leonevo]
-b1489a3  Set OmniEvo  [Leonevo]
-   * bootable/recovery/
-35df638  crypto: remove redundant convert_key_to_hex_ascii call  [Captain Throwback]
-   * system/core/
-9f16578  fs_mgr: Change f2fs path  [Menno van Grinsven]
-
-====================
-     05-17-2016
-====================
-   * OTA_config/
-bd3d858  onepluses: update for framboise  [Martinusbe]
-   * vendor/omni/
-ff89a94  Change default wallpaper  [EvoMagix]
-
-====================
-     05-16-2016
+     05-30-2016
 ====================
 
    * android/
-a720849  Delete OpenDelta for now...  [Leonevo]
-   * system/core/
-08de491  init: Add support for gzipped firmware files  [Menno van Grinsven]
-   * vendor/omni/
-e73004a  Remove OpenDelta for now, update Chromium and add EVOMAGIX  [EvoMagix]
+b2c126c  manifest: Add FMRadio fork  [Leonevo]
+   * packages/apps/Gallery2/
+341e555  Gallery2: reenable vignette filter  [maxwen]
+8d97d25  Gallery2: fix actionmode backgroud  [maxwen]
+   * packages/apps/Settings/
+e88d625  Changelog in device info  [EvoMagix]
 
 ====================
-     05-15-2016
+     05-29-2016
 ====================
+
+   * android/
+cb7ad00  Update default.xml  [Leonevo]
+   * frameworks/base/
+45f9b92  Revert "frameworks/base: Support for third party NFC features"  [EvoMagix]
+569de16  frameworks/base: Support for third party NFC features  [EvoMagix]
+7275fe7  Show icon of package associated with Toast  [EvoMagix]
+   * packages/apps/Gallery2/
+c42fddc  Gallery2: add grid view padding config  [maxwen]
+88a5454  Gallery2: rework UI  [maxwen]
+   * packages/apps/Settings/
+825e12a  Update power control widget preview image.  [EvoMagix]
+a134c62  Add OmniEvo OTA (2/3)  [EvoMagix]
+
+====================
+     05-28-2016
+====================
+
+
+====================
+     05-27-2016
+====================
+
+   * bootable/recovery/
+b9e547e  Move force_rgb_565 up.  [Aaron Kling]
+   * packages/apps/DeskClock/
+0a596f8  DeskClock: dont use DayNight for action bar menu  [Max Weninger]
+   * packages/apps/Gallery2/
+7cdee03  Gallery2: change color palette to orange/amber  [maxwen]
+9f95d9f  Gallery2: fix ActionBar menu look  [maxwen]
+
+====================
+     05-26-2016
+====================
+
+   * packages/apps/PerformanceControl/
+2de21ac  PerformanceControl: fix those spinner layouts onece and for all  [mweninge]
+
+====================
+     05-25-2016
+====================
+
+   * packages/apps/Gallery2/
+ac70e5f   Galllery2: delete obsolete custom_strings files  [maxwen]
+b353dd5  Merge remote-tracking branch 'du/m' into work  [maxwen]
+
