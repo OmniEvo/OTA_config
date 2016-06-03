@@ -1,7 +1,57 @@
 ====================
-     06-01-2016
+     06-03-2016
 ====================
 
+   * frameworks/base/
+be85186  Gapps Permissions: more google apps  [EvoMagix]
+7889f6b  Parse method-trace properties only in debug builds.  [EvoMagix]
+9cb8218  Fix memory corruption in SpotShadow  [EvoMagix]
+cb6e8d9  Change SQL to improve performance  [EvoMagix]
+ca8e173  Optimize IncallUI delay for voice calls  [EvoMagix]
+8996fc5  libhwui: fix texture memory leak  [EvoMagix]
+434be06  zygote: fix memory leak when fork process  [EvoMagix]
+4e6fe6b  NullPointerException in UsbStorageActivity  [EvoMagix]
+c17aefc  [1/2]frameworks/base: Add three-fingers-swipe to screenshot  [EvoMagix]
+   * packages/apps/OmniGears/
+a41733f  Added Quick Pulldown  [EvoMagix]
+   * packages/apps/Settings/
+4718d20  [2/2] Settings: Add three-fingers-swipe to screenshot  [EvoMagix]
+67c21a7  Add omnievo icon for OTA  [EvoMagix]
+
+====================
+     06-02-2016
+====================
+   * OTA_config/
+fbe1eda  Update OmniEvoOTA.xml  [Leonevo]
+   * android/
+1f87a48  Add SnapdragonCamera  [Leonevo]
+   * build/
+94360c4  Fix build  [EvoMagix]
+   * device/moto/shamu/
+b9e39a3   Add SnapdragonCamera and delete dependencies  [EvoMagix]
+   * frameworks/base/
+ace36a5  SystemUI: add caffeine qs tile  [EvoMagix]
+90d08ce  Show charging current in mAh on lockscreen  [EvoMagix]
+18636bd  Keyguard: fix disappearing letters on PIN scramble  [EvoMagix]
+   * packages/apps/OmniSwitch/
+6fcb3b3  OmniSwitch: rework thumb loading  [maxwen]
+   * packages/apps/Settings/
+3697dbd  Add Extra Info  [EvoMagix]
+   * packages/apps/SnapdragonCamera/
+0219141  make openLegacy an option  [Jake Whatley]
+b12f601  add support for non-standard iso keys and values  [Jake Whatley]
+400c1a0  option to set manufacturer specific parameters on startup  [Jake Whatley]
+   * vendor/omni/
+dbc36a9  Add new's bootanimations  [EvoMagix]
+
+====================
+     06-01-2016
+====================
+   * OTA_config/
+b801988  Version 01/06/2016  [Leonevo]
+fbcb54b  Update Changelog.txt  [Leonevo]
+   * build/
+e89359d  qcom_target: define MSM_VIDC_TARGET_LIST  [EvoMagix]
    * packages/apps/Settings/
 b594f3d  Enable Development Settings By Default regardless of build type  [EvoMagix]
 0b6c3ae  add additional battery saver steps  [EvoMagix]
@@ -11,40 +61,45 @@ b594f3d  Enable Development Settings By Default regardless of build type  [EvoMa
      05-31-2016
 ====================
 
+   * packages/apps/SnapdragonCamera/
+5d68062  SnapdragonCamera: add hammerhead res  [Yassine Cherif]
 
 ====================
      05-30-2016
 ====================
 
-   * android/
-b2c126c  manifest: Add FMRadio fork  [Leonevo]
    * packages/apps/Gallery2/
 341e555  Gallery2: reenable vignette filter  [maxwen]
 8d97d25  Gallery2: fix actionmode backgroud  [maxwen]
-   * packages/apps/Settings/
-e88d625  Changelog in device info  [EvoMagix]
+   * system/core/
+8f033a7  mkbootimg: Fix for loop initial declaration error  [Sohamlad7]
 
 ====================
      05-29-2016
 ====================
 
    * android/
-cb7ad00  Update default.xml  [Leonevo]
+b2c126c  manifest: Add FMRadio fork  [Leonevo]
    * frameworks/base/
 45f9b92  Revert "frameworks/base: Support for third party NFC features"  [EvoMagix]
-569de16  frameworks/base: Support for third party NFC features  [EvoMagix]
-7275fe7  Show icon of package associated with Toast  [EvoMagix]
    * packages/apps/Gallery2/
 c42fddc  Gallery2: add grid view padding config  [maxwen]
 88a5454  Gallery2: rework UI  [maxwen]
    * packages/apps/Settings/
-825e12a  Update power control widget preview image.  [EvoMagix]
-a134c62  Add OmniEvo OTA (2/3)  [EvoMagix]
+e88d625  Changelog in device info  [EvoMagix]
 
 ====================
      05-28-2016
 ====================
 
+   * android/
+cb7ad00  Update default.xml  [Leonevo]
+   * frameworks/base/
+569de16  frameworks/base: Support for third party NFC features  [EvoMagix]
+7275fe7  Show icon of package associated with Toast  [EvoMagix]
+   * packages/apps/Settings/
+825e12a  Update power control widget preview image.  [EvoMagix]
+a134c62  Add OmniEvo OTA (2/3)  [EvoMagix]
 
 ====================
      05-27-2016
@@ -56,20 +111,6 @@ b9e547e  Move force_rgb_565 up.  [Aaron Kling]
 0a596f8  DeskClock: dont use DayNight for action bar menu  [Max Weninger]
    * packages/apps/Gallery2/
 7cdee03  Gallery2: change color palette to orange/amber  [maxwen]
-9f95d9f  Gallery2: fix ActionBar menu look  [maxwen]
-
-====================
-     05-26-2016
-====================
-
-   * packages/apps/PerformanceControl/
-2de21ac  PerformanceControl: fix those spinner layouts onece and for all  [mweninge]
-
-====================
-     05-25-2016
-====================
-
-   * packages/apps/Gallery2/
-ac70e5f   Galllery2: delete obsolete custom_strings files  [maxwen]
-b353dd5  Merge remote-tracking branch 'du/m' into work  [maxwen]
+   * packages/apps/SnapdragonCamera/
+94d9a90  SnapdragonCamera: remove storage menu if no external storage available  [maxwen]
 
