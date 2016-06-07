@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <shamu>
-            <Filename>OmniEvo-6.0.1-shamu-20160603</Filename>
+            <Filename>OmniEvo-6.0.1-shamu-20160607</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
@@ -16,6 +16,21 @@
                 title="Gapps"
                 description="Download latest Opengapps">http://opengapps.org/</GappsUrl>
         </shamu>
+        <angler>
+            <Filename>OmniEvo-6.0.1-angler-20160603</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+                description="Download OmniEvo build">https://www.androidfilehost.com/?w=files&amp;flid=65065</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View OmniEvo changelogs">https://github.com/OmniEvo/OTA_config/blob/master/Changelogs/Shamu/Changelog.txt</ChangelogUrl>
+            <GappsUrl
+                id="gapps"
+                title="Gapps"
+                description="Download latest Opengapps">http://opengapps.org/</GappsUrl>
+        </angler>
     </Stable>
 </SlimOTA>
 
