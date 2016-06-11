@@ -1,4 +1,78 @@
 ====================
+     06-11-2016
+====================
+
+   * build/
+02645be  Customice makefile  [EvoMagix]
+   * device/moto/shamu/
+39634ab  shamu: Update fingerprint to MOB30M  [EvoMagix]
+   * frameworks/base/
+f45d161  	base: Screenshot Crop & Share: add draw stroke width support  [EvoMagix]
+cab9d58  Custom Clock Settings [2/2}  [EvoMagix]
+   * packages/apps/OmniGears/
+b476a91  Custom Clock Settings [1/2]  [EvoMagix]
+   * packages/apps/Settings/
+fb879f8  Show more accurate internal storage capacity  [EvoMagix]
+168233e  Settings: replace 3 dots with horizontal ellipsis  [EvoMagix]
+
+====================
+     06-10-2016
+====================
+
+   * bootable/recovery/
+0ac2293  Black screen patch for some HiSilicon devices (FBIOPAN_DISPLAY)  [Dees Troy]
+   * device/huawei/angler/
+cec322f  Revert "Add HotwordEnrollment"  [Marko Man]
+
+====================
+     06-09-2016
+====================
+
+   * device/huawei/angler/
+6b7fd91  angler: Add Vendor Overlay for CarrierConfig (ALOT of FIXS) *come on google this is pretty crucial to leave out of aosp *should fix wifi calling on EE as well as a ton of carrier specific volte/mms issues  [Marko Man]
+0ef1c4d  Confirm support for Camera API2  [Marko Man]
+aae7e1e  sepolicy: fix netmgr and vold denials  [Marko Man]
+0cb87fa  add twrp fstab  [Marko Man]
+773dade  angler: Pull in needed .so for decrypt support in twrp Needed for OTA (MHC19J)  [Marko Man]
+7b4f886  update fingerprint to MTC19V  [Marko Man]
+39b0d03  angler: fix NFC selinux denial  [Marko Man]
+1185467  angler: Use XXXHDPI dalvik heap and HWUI  [Marko Man]
+bc37d01  add TARGET_INCREASE_COLDBOOT_TIMEOUT  [Marko Man]
+8012bf2  update camera hal to r46  [Marko Man]
+   * frameworks/base/
+c0d1582  Merged branch evoM into evoM  [EvoMagix]
+37c0bc2  Smart Pulldown [1/2]  [EvoMagix]
+b1447c9  Smart Pulldown  [EvoMagix]
+   * packages/apps/OmniGears/
+e12bbbc  Fix Quick Pulldown and Smart Pulldown  [EvoMagix]
+e8b0126  Configurable Keyguard alpha and Keyguard Bouncer alpha [2/2]  [EvoMagix]
+
+====================
+     06-08-2016
+====================
+   * OTA_config/
+584d4ca  07/06/2015 version  [EvoMagix]
+   * device/huawei/angler/
+14944e6  Add HotwordEnrollment and enable BOARD_SUPPORTS_SOUND_TRIGGER  [Marko Man]
+1c7030c  Change manufacturer to lower case  [Marko Man]
+bebcd98  disable unneeded init services  [Marko Man]
+b8f288f  power enable/disable double-tap wake gesture.  [Marko Man]
+75642c5  Enable battery LED  [Marko Man]
+3539b49  kill bugreport shortcut service  [Marko Man]
+e8607fa  Enable Wifi Display and fix screen mirroring  [Marko Man]
+cb4675b  remove duplicate mms useragent  [Marko Man]
+9149f3d  add facelock properties  [Marko Man]
+8391022  add missing drm prop  [Marko Man]
+e1dc5c1  angler: disable device verification of /system and /vendor  [Marko Man]
+   * frameworks/base/
+f2b987e  Configurable Keyguard alpha and Keyguard Bouncer alpha [1/2]  [EvoMagix]
+c5d3705  Smart Pulldown [1/2][Squashed]  [EvoMagix]
+7c5f79a  Merged branch evoM into evoM  [EvoMagix]
+6656fe9  Revert "Smart Pulldown [1/2]"  [EvoMagix]
+   * hardware/libhardware/
+adff743  Merge "hardware/libhw: Add display_defs.h to declare custom enums/flags" into android-6.0  [Gerrit Code Review]
+
+====================
      06-07-2016
 ====================
 
@@ -8,15 +82,29 @@
 c7c1767  Add Huawei Angler (6P)  [Leonevo]
    * build/
 b8e0abb  Merge tag 'android-6.0.1_r46' into m  [EvoMagix]
+   * frameworks/av/
+171067e  Merge tag 'android-6.0.1_r46' into android-6.0-merge  [Humberto Borba]
    * frameworks/base/
 4eebfdb  Merge tag 'android-6.0.1_r46' into m  [EvoMagix]
 1ee9891  Frameworks: add ability to disable bar color in battery saver mode (1/2)  [EvoMagix]
+   * frameworks/native/
+8488201  Merge tag 'android-6.0.1_r46' into android-6.0-merge  [Humberto Borba]
+   * hardware/qcom/media/
+c549649  Merge tag 'android-6.0.1_r46' into android-6.0-merge  [Humberto Borba]
+   * packages/apps/Bluetooth/
+c0f2bba  Merge tag 'android-6.0.1_r46' into android-6.0-merge  [Humberto Borba]
+   * packages/apps/PackageInstaller/
+519febe  Merge tag 'android-6.0.1_r46' into android-6.0-merge  [Humberto Borba]
    * packages/apps/Settings/
 8d92278  Settings: add ability to disable bar color in battery saver mode (2/2)  [EvoMagix]
    * packages/apps/SlimOTA/
 225b9ae  Merged branch evoM into evoM  [EvoMagix]
 ea25321  Nuevos iconos...  [EvoMagix]
 dc30790  Nuevos colores...  [EvoMagix]
+   * packages/services/Telephony/
+1e3f7ba  Merge tag 'android-6.0.1_r46' into android-6.0-merge  [Humberto Borba]
+   * system/core/
+e74415a  Merge tag 'android-6.0.1_r46' into android-6.0-merge  [Humberto Borba]
 
 ====================
      06-06-2016
@@ -29,11 +117,14 @@ e903431  Fixes the system server crash issues caused by null pointer in… … N
 5abc905  Quick settings: Option to disable brightness slider  [EvoMagix]
    * packages/apps/OmniGears/
 b7855f6  Show carrier label / custom & change color [2/2] [Squashed]  [EvoMagix]
+766bd3b  Smart Pulldown [2/2]  [EvoMagix]
    * packages/apps/Settings/
 99d9880  Display Settings: Better font size control  [EvoMagix]
 7bcb0eb  Fix Layers  [EvoMagix]
 1ffd64a  Enable MultiWindow for everyone! :)  [EvoMagix]
 0781fbd  Dashboard categories (LayersManager)  [EvoMagix]
+   * packages/apps/SnapdragonCamera/
+cc03a49  SnapdragonCamera: remove all usages of 1440p camcorder  [Max Weninger]
    * vendor/omni/
 424d6a8  sepolicy: fix renderscript usage for Gallery2  [EvoMagix]
 
@@ -41,6 +132,8 @@ b7855f6  Show carrier label / custom & change color [2/2] [Squashed]  [EvoMagix]
      06-05-2016
 ====================
 
+   * build/
+da0661c  Avoid accidentally using the host's native 'as' command.  [EvoMagix]
    * frameworks/base/
 955574e  Smart Pulldown [1/2]  [EvoMagix]
 0a72474  Smart Pulldown [1/2]  [EvoMagix]
@@ -48,82 +141,13 @@ b7855f6  Show carrier label / custom & change color [2/2] [Squashed]  [EvoMagix]
    * packages/apps/Gallery2/
 ec1b1b6  Gallery2: change all share intents to chooser style  [maxwen]
    * packages/apps/OmniGears/
-766bd3b  Smart Pulldown [2/2]  [EvoMagix]
 67b4bca   [2/2] OmniGears: Screenshot Crop & Share  [EvoMagix]
    * packages/apps/SnapdragonCamera/
-cc03a49  SnapdragonCamera: remove all usages of 1440p camcorder  [Max Weninger]
 f6daee0  SnapdragonCamera: fix initial show of remaining photos view  [maxwen]
 55f7651  SnapdragonCamera: fix rotate in secure mode  [maxwen]
 
 ====================
      06-04-2016
-====================
-
-   * build/
-da0661c  Avoid accidentally using the host's native 'as' command.  [EvoMagix]
-
-====================
-     06-03-2016
-====================
-   * OTA_config/
-dd41e45  Update version  [EvoMagix]
-   * frameworks/base/
-be85186  Gapps Permissions: more google apps  [EvoMagix]
-7889f6b  Parse method-trace properties only in debug builds.  [EvoMagix]
-9cb8218  Fix memory corruption in SpotShadow  [EvoMagix]
-cb6e8d9  Change SQL to improve performance  [EvoMagix]
-ca8e173  Optimize IncallUI delay for voice calls  [EvoMagix]
-8996fc5  libhwui: fix texture memory leak  [EvoMagix]
-434be06  zygote: fix memory leak when fork process  [EvoMagix]
-4e6fe6b  NullPointerException in UsbStorageActivity  [EvoMagix]
-c17aefc  [1/2]frameworks/base: Add three-fingers-swipe to screenshot  [EvoMagix]
-   * packages/apps/OmniGears/
-a41733f  Added Quick Pulldown  [EvoMagix]
-   * packages/apps/Settings/
-4718d20  [2/2] Settings: Add three-fingers-swipe to screenshot  [EvoMagix]
-
-====================
-     06-02-2016
-====================
-
-   * android/
-1f87a48  Add SnapdragonCamera  [Leonevo]
-   * build/
-94360c4  Fix build  [EvoMagix]
-   * device/moto/shamu/
-b9e39a3   Add SnapdragonCamera and delete dependencies  [EvoMagix]
-   * frameworks/base/
-ace36a5  SystemUI: add caffeine qs tile  [EvoMagix]
-90d08ce  Show charging current in mAh on lockscreen  [EvoMagix]
-18636bd  Keyguard: fix disappearing letters on PIN scramble  [EvoMagix]
-   * packages/apps/OmniSwitch/
-6fcb3b3  OmniSwitch: rework thumb loading  [maxwen]
-   * packages/apps/Settings/
-67c21a7  Add omnievo icon for OTA  [EvoMagix]
-3697dbd  Add Extra Info  [EvoMagix]
-   * packages/apps/SnapdragonCamera/
-0219141  make openLegacy an option  [Jake Whatley]
-b12f601  add support for non-standard iso keys and values  [Jake Whatley]
-400c1a0  option to set manufacturer specific parameters on startup  [Jake Whatley]
-   * vendor/omni/
-dbc36a9  Add new's bootanimations  [EvoMagix]
-
-====================
-     06-01-2016
-====================
-   * OTA_config/
-fbe1eda  Update OmniEvoOTA.xml  [Leonevo]
-b801988  Version 01/06/2016  [Leonevo]
-fbcb54b  Update Changelog.txt  [Leonevo]
-   * build/
-e89359d  qcom_target: define MSM_VIDC_TARGET_LIST  [EvoMagix]
-   * packages/apps/Settings/
-b594f3d  Enable Development Settings By Default regardless of build type  [EvoMagix]
-0b6c3ae  add additional battery saver steps  [EvoMagix]
-855aa7a  Remove all Google Legal Information, System Update Settings  [EvoMagix]
-
-====================
-     05-31-2016
 ====================
 
 
