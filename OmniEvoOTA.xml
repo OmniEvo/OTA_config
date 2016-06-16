@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <shamu>
-            <Filename>OmniEvo-6.0.1-shamu-20160611</Filename>
+            <Filename>OmniEvo-6.0.1-shamu-20160616</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
