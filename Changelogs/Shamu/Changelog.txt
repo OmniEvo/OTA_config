@@ -1,186 +1,87 @@
 ====================
-     06-16-2016
+     06-26-2016
 ====================
 
+   * kernel/moto/shamu/
+688dfe2  Add SWAP and kernel version  [EvoMagix]
+8040386  Fix Yankactive Governor  [EvoMagix]
+3aef8ac  Update fast charge  [EvoMagix]
+
+====================
+     06-25-2016
+====================
+
+   * android/
+55dcc68  Revert "Update default.xml"  [EvoMagix]
+475758c  Revert "Update default.xml"  [EvoMagix]
    * build/
-d8f054e  Add more cleaning options  [EvoMagix]
-fe3e352  Add the OmniEvo version info to dumpvar  [EvoMagix]
-   * frameworks/base/
-6dd0f7b  Fix Gmail/Hangouts notification text color  [EvoMagix]
-df80e65  Battery Led Fast Charge  [EvoMagix]
-   * kernel/moto/shamu/
-d1e9849  Revert "scripts: remove localversion "+" from kernel version strings"  [EvoMagix]
-12f72e5  scripts: remove localversion "+" from kernel version strings  [EvoMagix]
-df320c0  cpufreq: CPU max. hardlimit v2.2 (Yank555.lu)  [EvoMagix]
-   * vendor/omni/
-21e3f3e  Fix Compilation  [EvoMagix]
-ddf4c26  sepolicy: Add file system sepolicy rules  [EvoMagix]
-243283d  Camera effects for devices without a vendor partition  [EvoMagix]
-f2b2fee  Add OmniEvo property's  [EvoMagix]
-804c55d  FFMPEG support  [EvoMagix]
-1de82f3  NTFS support  [EvoMagix]
-90de138  exFAT support  [EvoMagix]
-7c17155  Aditional packages  [EvoMagix]
-
-====================
-     06-15-2016
-====================
-
+5351302  LOCALES := es_ES  [EvoMagix]
    * device/huawei/angler/
-dad4233  Revert "angler: require vendor"  [darkobas]
-   * device/moto/shamu/
-3babbe1  liblights: don't mess with charging color  [EvoMagix]
-280c72b  overlay: consider fast charging above 1300mA/h for shamu  [EvoMagix]
-13df778  Shamu speaker fix  [EvoMagix]
-0f2e802  Configure Yank555.lu default kernel config on boot complete  [EvoMagix]
-198263d  swap: add 1Gb zswap  [EvoMagix]
-7b52b9b  Add init.d support  [EvoMagix]
+b09dc48  Revert "angler: Speed up boot by using all availale cores"  [darkobas]
    * frameworks/base/
-7402a43  Fix the system server crash fix  [EvoMagix]
-acfa456  optimize wallpaper load,avoid show black wallpaper.  [EvoMagix]
-fbe01f0  androidfw: STFU  [EvoMagix]
-7af6222  Avoid NPE in printspooler when changing language  [EvoMagix]
-777e7f6  Check if adapter is valid before updating adapter  [EvoMagix]
-cb3971f  SystemUI: Turn off some debugging  [EvoMagix]
-8a19cb9  Also dump widget options in 'dumpsys appwidget'.  [EvoMagix]
-1a28131  Fix deadlock between ActivityManager and BackupManager under some rac… …e conditions.  [EvoMagix]
-54486e2  Fix USB intent warning on deviceAttached()  [EvoMagix]
-   * kernel/moto/shamu/
-8d8603e  scripts: remove localversion "+" from kernel version strings  [EvoMagix]
-22acd4e  Fix yankactive governor  [EvoMagix]
-ef8d07f  Revert "Revert "Revert "cpufreq: Initial CPU utilization should be 0"""  [EvoMagix]
-b31d48f  Revert "Revert "cpufreq: add yankactive governor""  [EvoMagix]
-297422a  Revert "Revert "cpufreq: Initial CPU utilization should be 0""  [EvoMagix]
-f7fd8b8  cpufreq: CPU max. hardlimit v2.2 (Yank555.lu)  [EvoMagix]
-   * packages/apps/OmniGears/
-87cd6e7  Revert "Settings: add navigation bar arrow keys toggle"  [EvoMagix]
-ee089c6  Fix Smart Pulldown  [EvoMagix]
-561a90c  Settings: add navigation bar arrow keys toggle  [EvoMagix]
+db0f64f  SysteUI: Fix timeout QS tile details for light/dark  [EvoMagix]
+55517a4  Add Timeout QS Tile  [EvoMagix]
+ef86ea1  Add Music QS Tile  [EvoMagix]
+c0be47f  Merged branch evoM into evoM  [EvoMagix]
+1680da3  Fix Screenshot Crop & Share blur feature  [EvoMagix]
+30a6a98  Fix Screenshot Crop & Share  [EvoMagix]
+6651997   SystemUI: fix wrong intent extra for screenshot edit  [EvoMagix]
+874b500   SystemUI: [Screenshot Crop & Share] Add blur feature  [EvoMagix]
 
 ====================
-     06-14-2016
+     06-24-2016
 ====================
 
-   * device/huawei/angler/
-d59cc99  Merge "remove duplicate overlay" into android-6.0  [Gerrit Code Review]
-2ab7bfe  remove duplicate overlay  [Marko Man]
-3c6e71b  Merge "angler: Speed up boot by using all availale cores" into android-6.0  [Gerrit Code Review]
-   * frameworks/base/
-bfbe5a7  Delete Media Tests  [EvoMagix]
-5307c1b  SystemUI: Remove tests  [EvoMagix]
-7430e12  Remove unnecessary videos  [EvoMagix]
-6dcc041  Fix Quick Pulldown (1/2)  [EvoMagix]
-   * kernel/moto/shamu/
-9baf684  Revert "cpufreq: add yankactive governor"  [EvoMagix]
-   * packages/apps/OmniGears/
-9c74d01  Fix Quick Pulldown (2/2)  [EvoMagix]
+   * android/
+a20f46d  Update default.xml  [GitHub]
+e5db1cc  Update default.xml  [GitHub]
+   * frameworks/opt/telephony/
+1f716c4  telephony: Add oldril feature setPrefNwTypeOnUnsolConnected.  [Andreas Blaesius]
    * packages/apps/SnapdragonCamera/
-5ea4f2a  Merge "Fix NPE when switching video effects and click on screen" into android-6.0  [Gerrit Code Review]
-f47d95f  SnapdragonCamera: remove obsolete config hide_navigation_bar  [maxwen]
-eb60be1  Fix NPE when switching video effects and click on screen  [darkobas]
-a164184  SnapdragonCamera: Fixing NullPointerException in onCreate of VideoModule  [Max Weninger]
-28e5a04  CameraActivity: Don't hide navigation bar  [Max Weninger]
-d201110  SnapdragonCamera: Fix the memory leak on view.  [Max Weninger]
-eee6a3a  SnapdragonCamera: Improvement in open camera latency  [Max Weninger]
-8bfb5a6  SnapdragonCamera: Fix filtering of unsupported HFR/HSR modes  [Max Weninger]
-f3bfdeb  SnapdragonCamera: Scale up bitrate for HSR recordings  [Max Weninger]
-71bab43  SnapdragonCamera: add resolutions used on Nexus 6P  [Marko Man]
+34f2173  SnapdragonCamera: set translatable to "false" on some strings  [Andreas Blaesius]
 
 ====================
-     06-13-2016
+     06-23-2016
+====================
+
+   * frameworks/native/
+e11dd0d  libbinder: allow devices to disable ashmem size tracking  [Andreas Blaesius]
+
+====================
+     06-22-2016
 ====================
 
    * device/huawei/angler/
-1e4fa19  add snapdragoncamera  [Marko Man]
-d2f4f6b  angler: Add default output session effects  [Marko Man]
-7bd4106  Add blob extraction / makefile setup scripts Include fixup of XML files that are otherwise complained about by android build copy process.  [Marko Man]
-f5ee9c4  disable ramdumps  [Marko Man]
+51f9e29  SnapdragonCamera: disable openLegacy  [Marko Man]
    * kernel/huawei/angler/
-7000830  Merge tag 'android-6.0.1_r0.88' into mm2  [Marko Man]
-   * kernel/moto/shamu/
-c51a281  Revert "cpufreq: Initial CPU utilization should be 0"  [EvoMagix]
-2cc52f9  cpufreq: Initial CPU utilization should be 0  [EvoMagix]
-bc9fa83  cpufreq: add yankactive governor  [EvoMagix]
-7cb0474  drivers/cpufreq/cpu-boost: Allow input boost code to be excludable in defconfig  [EvoMagix]
-9bf792a   Sound Control: initial bring up for Nexus 6 Linux 3.10 kernel driver  [EvoMagix]
-8cb24c3  cpufreq: force cpuN policy to match cpu0 when setting min freq  [EvoMagix]
+f8c1b7c  Angler: Add Bricked_hotplug driver  [Marko Man]
+d813012  cpufreq: Introduce new relation for freq selection  [Marko Man]
+03ca794  cpufreq: Break out early when frequency equals target_freq  [Marko Man]
+41aa899  cpufreq: cpu-boost: Optimizations  [Marko Man]
 
 ====================
-     06-12-2016
+     06-21-2016
 ====================
-   * OTA_config/
-b8cce83  Update version to 2016/06/11  [EvoMagix]
+
+
+====================
+     06-20-2016
+====================
+
+   * android/
+2ce5710  externel_sepolicy by evo  [GitHub]
    * build/
-51cc0a2  Fix colorize Jack  [EvoMagix]
-ae20e4c   Add apq8084/msm8084 to QCOM_BOARD_PLATFORMS  [EvoMagix]
-73ccc8b  Colorize Jack  [EvoMagix]
-1e44121  Colorize Jack  [EvoMagix]
-   * frameworks/base/
-de204d4  [1/2] base: allow disabling quick settings on secure lock screens  [EvoMagix]
-   * packages/apps/Gallery2/
-8cccca1  Gallery2: redesign color chooser control  [maxwen]
-   * packages/apps/OmniGears/
-849b7f0  [2/2] OmniGears: allow disabling quick settings on secure lock screens  [EvoMagix]
+59d4e2c  user builds: set ro.debuggable=1, ro.secure=0  [EvoMagix]
+8e699a7  Add Update SuperSU to compilation (1/2)  [EvoMagix]
+   * external/sepolicy/
+52df1fc  Fix Flash SuperSu  [EvoMagix]
+a94c43f  Merge tag 'android-6.0.1_r30' into android-6.0-merge  [EvoMagix]
+   * vendor/omni/
+b6f95c4  Add UpdateSuperSU to compilation (2/2)  [EvoMagix]
+ca9d095  Add UpdateSuperSU to compilation (2/2)  [EvoMagix]
 
 ====================
-     06-11-2016
+     06-19-2016
 ====================
 
-   * build/
-02645be  Customice makefile  [EvoMagix]
-   * device/moto/shamu/
-39634ab  shamu: Update fingerprint to MOB30M  [EvoMagix]
-   * frameworks/base/
-f45d161  	base: Screenshot Crop & Share: add draw stroke width support  [EvoMagix]
-cab9d58  Custom Clock Settings [2/2}  [EvoMagix]
-   * packages/apps/OmniGears/
-b476a91  Custom Clock Settings [1/2]  [EvoMagix]
-   * packages/apps/PerformanceControl/
-f34cf7a  PerformanceControl: change share intents to chooser style  [maxwen]
-   * packages/apps/Settings/
-fb879f8  Show more accurate internal storage capacity  [EvoMagix]
-168233e  Settings: replace 3 dots with horizontal ellipsis  [EvoMagix]
-
-====================
-     06-10-2016
-====================
-
-   * bootable/recovery/
-0ac2293  Black screen patch for some HiSilicon devices (FBIOPAN_DISPLAY)  [Dees Troy]
-   * device/huawei/angler/
-cec322f  Revert "Add HotwordEnrollment"  [Marko Man]
-6b7fd91  angler: Add Vendor Overlay for CarrierConfig (ALOT of FIXS) *come on google this is pretty crucial to leave out of aosp *should fix wifi calling on EE as well as a ton of carrier specific volte/mms issues  [Marko Man]
-
-====================
-     06-09-2016
-====================
-
-   * device/huawei/angler/
-0ef1c4d  Confirm support for Camera API2  [Marko Man]
-aae7e1e  sepolicy: fix netmgr and vold denials  [Marko Man]
-0cb87fa  add twrp fstab  [Marko Man]
-773dade  angler: Pull in needed .so for decrypt support in twrp Needed for OTA (MHC19J)  [Marko Man]
-7b4f886  update fingerprint to MTC19V  [Marko Man]
-39b0d03  angler: fix NFC selinux denial  [Marko Man]
-1185467  angler: Use XXXHDPI dalvik heap and HWUI  [Marko Man]
-bc37d01  add TARGET_INCREASE_COLDBOOT_TIMEOUT  [Marko Man]
-8012bf2  update camera hal to r46  [Marko Man]
-14944e6  Add HotwordEnrollment and enable BOARD_SUPPORTS_SOUND_TRIGGER  [Marko Man]
-1c7030c  Change manufacturer to lower case  [Marko Man]
-bebcd98  disable unneeded init services  [Marko Man]
-b8f288f  power enable/disable double-tap wake gesture.  [Marko Man]
-75642c5  Enable battery LED  [Marko Man]
-3539b49  kill bugreport shortcut service  [Marko Man]
-e8607fa  Enable Wifi Display and fix screen mirroring  [Marko Man]
-cb4675b  remove duplicate mms useragent  [Marko Man]
-9149f3d  add facelock properties  [Marko Man]
-8391022  add missing drm prop  [Marko Man]
-e1dc5c1  angler: disable device verification of /system and /vendor  [Marko Man]
-   * frameworks/base/
-c0d1582  Merged branch evoM into evoM  [EvoMagix]
-37c0bc2  Smart Pulldown [1/2]  [EvoMagix]
-b1447c9  Smart Pulldown  [EvoMagix]
-   * packages/apps/OmniGears/
-e12bbbc  Fix Quick Pulldown and Smart Pulldown  [EvoMagix]
-e8b0126  Configurable Keyguard alpha and Keyguard Bouncer alpha [2/2]  [EvoMagix]
 
