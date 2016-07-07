@@ -1,87 +1,82 @@
 ====================
-     06-26-2016
+     07-07-2016
+====================
+
+   * android/
+30f04eb  Update Info  [GitHub]
+   * packages/apps/Settings/
+74a5216  fingerpint: Allow devices to configure sensor location  [EvoMagix]
+
+====================
+     07-06-2016
 ====================
 
    * kernel/moto/shamu/
-688dfe2  Add SWAP and kernel version  [EvoMagix]
-8040386  Fix Yankactive Governor  [EvoMagix]
-3aef8ac  Update fast charge  [EvoMagix]
+5737be2  msm: mdss: Adding lcd notifier  [EvoMagix]
 
 ====================
-     06-25-2016
+     07-05-2016
 ====================
 
-   * android/
-55dcc68  Revert "Update default.xml"  [EvoMagix]
-475758c  Revert "Update default.xml"  [EvoMagix]
+   * kernel/moto/shamu/
+2d7d02c  omni_shamu_defconfig:More updates  [EvoMagix]
+
+====================
+     07-04-2016
+====================
+
    * build/
-5351302  LOCALES := es_ES  [EvoMagix]
-   * device/huawei/angler/
-b09dc48  Revert "angler: Speed up boot by using all availale cores"  [darkobas]
+5f6549b  releasetools: don't attempt to read fingerprint on unified devices  [EvoMagix]
    * frameworks/base/
-db0f64f  SysteUI: Fix timeout QS tile details for light/dark  [EvoMagix]
-55517a4  Add Timeout QS Tile  [EvoMagix]
-ef86ea1  Add Music QS Tile  [EvoMagix]
-c0be47f  Merged branch evoM into evoM  [EvoMagix]
-1680da3  Fix Screenshot Crop & Share blur feature  [EvoMagix]
-30a6a98  Fix Screenshot Crop & Share  [EvoMagix]
-6651997   SystemUI: fix wrong intent extra for screenshot edit  [EvoMagix]
-874b500   SystemUI: [Screenshot Crop & Share] Add blur feature  [EvoMagix]
+1efb5d9  KeyguardSimPinView: don't send dummy request to get remaining pin  [EvoMagix]
+   * kernel/moto/shamu/
+9f2c6f3  Merged branch evoM into evoM  [EvoMagix]
+20d12fb  omni_shamu_defconfig: More Updates  [EvoMagix]
+a261e1c  omni_shamu_defconfig:Update  [EvoMagix]
+2904f97  cpufreq: add zzmoove  [EvoMagix]
+dedd3b7  omni_shamu_defconfig: Enable blu_plug  [EvoMagix]
+   * packages/apps/PackageInstaller/
+2801da0  Revert "DO NOT MERGE Take advantage of new MotionEvent flag to prevent tapjacking."  [maxwen]
 
 ====================
-     06-24-2016
+     07-03-2016
 ====================
 
-   * android/
-a20f46d  Update default.xml  [GitHub]
-e5db1cc  Update default.xml  [GitHub]
-   * frameworks/opt/telephony/
-1f716c4  telephony: Add oldril feature setPrefNwTypeOnUnsolConnected.  [Andreas Blaesius]
+
+====================
+     07-02-2016
+====================
+
+   * packages/apps/Apollo/
+d1703e9  Automatic translation import  [Andreas Blaesius]
+   * packages/apps/DSPManager/
+50cabad  Automatic translation import  [Andreas Blaesius]
+   * packages/apps/DeskClock/
+fe34a6c  Automatic translation import  [Andreas Blaesius]
+   * packages/apps/Launcher3/
+ae12530  Automatic translation import  [Andreas Blaesius]
+   * packages/apps/OmniSwitch/
+481f872  Merge "OmniSwitch: add launcher mode" into android-6.0  [Gerrit Code Review]
+4767fa1  OmniSwitch: add launcher mode  [maxwen]
+fcc602a  Automatic translation import  [Andreas Blaesius]
    * packages/apps/SnapdragonCamera/
-34f2173  SnapdragonCamera: set translatable to "false" on some strings  [Andreas Blaesius]
+65c56d5  Automatic translation import  [Andreas Blaesius]
+   * packages/services/OmniJaws/
+8407c4d  Automatic translation import  [Andreas Blaesius]
 
 ====================
-     06-23-2016
-====================
-
-   * frameworks/native/
-e11dd0d  libbinder: allow devices to disable ashmem size tracking  [Andreas Blaesius]
-
-====================
-     06-22-2016
-====================
-
-   * device/huawei/angler/
-51f9e29  SnapdragonCamera: disable openLegacy  [Marko Man]
-   * kernel/huawei/angler/
-f8c1b7c  Angler: Add Bricked_hotplug driver  [Marko Man]
-d813012  cpufreq: Introduce new relation for freq selection  [Marko Man]
-03ca794  cpufreq: Break out early when frequency equals target_freq  [Marko Man]
-41aa899  cpufreq: cpu-boost: Optimizations  [Marko Man]
-
-====================
-     06-21-2016
-====================
-
-
-====================
-     06-20-2016
+     07-01-2016
 ====================
 
    * android/
-2ce5710  externel_sepolicy by evo  [GitHub]
+8da63c7  Update default.xml  [GitHub]
+
+====================
+     06-30-2016
+====================
+
    * build/
-59d4e2c  user builds: set ro.debuggable=1, ro.secure=0  [EvoMagix]
-8e699a7  Add Update SuperSU to compilation (1/2)  [EvoMagix]
-   * external/sepolicy/
-52df1fc  Fix Flash SuperSu  [EvoMagix]
-a94c43f  Merge tag 'android-6.0.1_r30' into android-6.0-merge  [EvoMagix]
-   * vendor/omni/
-b6f95c4  Add UpdateSuperSU to compilation (2/2)  [EvoMagix]
-ca9d095  Add UpdateSuperSU to compilation (2/2)  [EvoMagix]
-
-====================
-     06-19-2016
-====================
-
+c9dd6c1   delete some things  [EvoMagix]
+   * external/dhcpcd/
+521db2e  Merge tag 'android-6.0.1_r46' into android-6.0  [Menno van Grinsven]
 
