@@ -1,21 +1,102 @@
 ====================
+     07-15-2016
+====================
+
+   * frameworks/base/
+4b574bb  OMS: Fix Quick settings tiles font themes derp [6/6]  [EvoMagix]
+23ce4ed  OMS: Fix Quick settings tiles font themes derp [6/6]  [EvoMagix]
+4238e1a  OMS: Add dynamic theme fonts support (Squash) [5/6]  [EvoMagix]
+a03a613  OMS: Add dynamic theme BootAnimation support [4/6]  [EvoMagix]
+67087e8  OMS: Allow multiple targets for enabling and disabling overlays [3/6]  [EvoMagix]
+fd4890c  OMS: Persistence on boot through OverlayManagerServiceImpl [2/6]  [EvoMagix]
+3814854  OMS: Introduce the OverlayManagerService (Squash) [1/6]  [EvoMagix]
+5fddde0  ApplicationsState: add filter for Substratum overlays (1/2)  [EvoMagix]
+   * packages/apps/Settings/
+de445c3  Add Substratum Dashboard Tile  [Leonevo]
+87a2d8b  Apps: show/hide Substratum overlays (2/2)  [Leonevo]
+
+====================
+     07-14-2016
+====================
+
+   * device/huawei/angler/
+581688b  angler: set minimum cpu frequency to 384 MHz for the big cores  [darkobas]
+   * hardware/broadcom/wlan/
+c13ec2a  Merge tag 'android-6.0.1_r52' into android-merge  [Humberto Borba]
+   * kernel/huawei/angler/
+e711fa4  crypto: msm: qcrypto: Fix hash crash if not last issue  [darkobas]
+21efe68  crypto: msm: qcrypto: Provide fallback for aead aes192  [darkobas]
+7165eeb  crypto: msm: qcrypto: Fix spinlock deadlock issue  [darkobas]
+41f4579  crypto: msm: remove wakeup lock in qcrypto driver  [darkobas]
+aef0fed  crypto: msm: fix qcrypto driver to improve IPSec performance  [darkobas]
+   * packages/apps/OmniSwitch/
+58743fb  OmniSwitch: launcher mode - remember state  [Max Weninger]
+   * packages/apps/masquerade/
+0718d01  Merge pull request #1 from nicholaschum/master  [GitHub]
+dca2968  Remove outdated signed APK  [Nicholas Chum]
+ba384d5  Bump up to v12  [Nicholas Chum]
+08867cd  Move Root Commands directly to the util class  [Nicholas Chum]
+da5cf01  Allow Masquerade to have CHANGE_CONFIGURATION permissions  [Nicholas Chum]
+
+====================
+     07-13-2016
+====================
+   * OTA_config/
+bed234e  Update OmniEvoOTA.xml  [GitHub]
+   * external/sepolicy/
+137a116  OMS: Add service 'overlay' to service_contexts  [EvoMagix]
+   * hardware/libhardware/
+c10668a  Merge "libhardware: add HWC_DISPLAY_TERTIARY bits" into android-6.0  [Gerrit Code Review]
+   * packages/apps/masquerade/
+ab84866  Masquerade: Clean up the entire app's code for our current usage  [Nicholas Chum]
+8aa59a5  Remove excess error logging for Masquerade Ball  [Nicholas Chum]
+fc7109b  Masquerade: Add callback to ensure Helper is running in the bg  [Nicholas Chum]
+dbf4f67  Merge pull request #1 from nicholaschum/test  [GitHub]
+6e4fe65  Add Android.mk so we can build masquerade inline *keep compatible with android studio as well  [beanstown106]
+
+====================
+     07-12-2016
+====================
+
+   * build/
+f46e89c  OMS: adb shell command to access OverlayManagerService  [EvoMagix]
+   * packages/apps/masquerade/
+18d2e62  Get started with building inlines for Marshmallow ROMs  [Nicholas Chum]
+57bc474  Clean up unneeded dependency inheritances  [Nicholas Chum]
+   * vendor/omni/
+098565e  OMS: build masquerade inline  [EvoMagix]
+
+====================
+     07-11-2016
+====================
+
+   * packages/apps/Nfc/
+aea1301  NFC: Adding new vendor specific interface to NFC Service  [mweninge]
+   * packages/apps/masquerade/
+1b35fc1  Masquerade: Re-masqueradify the package and fix storage issue  [Nicholas Chum]
+10a63a0  Prepare for internal release (four)  [Nicholas Chum]
+69f4f37  Rename the app to "masquerade"  [Nicholas Chum]
+bbf9da5  Masquerade: Helper should be able to be called by Substratum  [Nicholas Chum]
+
+====================
      07-10-2016
 ====================
    * OTA_config/
+b873214  Update OmniEvoOTA.xml  [GitHub]
+9605060  Actualizacion 10/07/2016  [EvoMagix]
 5961895  Update OmniEvoOTA.xml  [GitHub]
 7ea716d  Update OmniEvoOTA.xml  [GitHub]
    * frameworks/base/
 a261b8c  Fix Typo  [EvoMagix]
 c601f31  Flip to Mute/Reject Call [1/3]  [EvoMagix]
-   * packages/apps/Bluetooth/
-8e32a6b  Revert "DO NOT MERGE Read Bluetooth interop database entries from settings (2/2)"  [darkobas]
-   * packages/apps/InCallUI/
-03b9632  Flip to Mute/Reject Call [3/3]  [EvoMagix]
-2d0b7e0  Flip to Mute/Reject Call [3/3]  [EvoMagix]
    * packages/apps/Settings/
 80931a2   Settings: hide the other learn more too  [EvoMagix]
-   * packages/services/Telephony/
-30bc871  Flip to Mute/Reject Call [2/3]  [EvoMagix]
+   * packages/apps/masquerade/
+dcff0ff  Masquerade: Rewrite AntiPiracy Handler  [Nicholas Chum]
+ba8010e  Masquerade: Allow for specific uninstalls without removing caches  [Nicholas Chum]
+edf2d0a  Masquerade: Make the command output prettier  [Nicholas Chum]
+fe146f7  Convert Helper service Logs from Error to Debug  [Nicholas Chum]
+7ee005e  Masquerade: Rewrite uninstall broadcast receiver  [Nicholas Chum]
    * vendor/omni/
 2c87238  FIX  Adapt to 6.0.1_r52 backup whitelist  [EvoMagix]
 c96a692   update omni-list  [EvoMagix]
@@ -24,157 +105,41 @@ c96a692   update omni-list  [EvoMagix]
      07-09-2016
 ====================
 
-   * android/
-8cb4705  Android 6.0.1 Release 54 (MTC19Z)  [GitHub]
-   * build/
-cf3ba71  Merge tag 'android-6.0.1_r54' into evoM  [EvoMagix]
-e08f3b6  Merge tag 'android-6.0.1_r54' into android-6.0-merge Android 6.0.1 Release 54 (MTC19Z)  [EvoMagix]
    * device/huawei/angler/
 b1c0bcc  angler: Introduce BOARD_USES_AOSP_CAMERA  [Humberto Borba]
 b5bbd97  angler: Update omni.dependencies for camera  [Humberto Borba]
    * frameworks/av/
 6cd9f4d  camera: Don't segfault if we get a NULL parameter  [Max Weninger]
-   * frameworks/base/
-764f38e  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [EvoMagix]
-   * packages/apps/Settings/
-4e9b1d4   Settings: hide learn more button on fingerprint page  it leads to nowhere and crashes  [EvoMagix]
-96d08f5  fingerpint: Allow devices to configure sensor location  [EvoMagix]
-   * vendor/moto/
-440559c  shamu: update blobs for 6.0.1 (MOB30O)  [EvoMagix]
-   * vendor/omni/
-8d2b3e8  Adapt to 6.0.1_r52 backup whitelist  [EvoMagix]
+   * packages/apps/Bluetooth/
+8e32a6b  Revert "DO NOT MERGE Read Bluetooth interop database entries from settings (2/2)"  [darkobas]
+   * packages/apps/masquerade/
+f83ca96  Move requestRoot out of the main function and call it from base  [Nicholas Chum]
+702d467  Initial commit  [Nicholas Chum]
 
 ====================
      07-08-2016
 ====================
-   * OTA_config/
-9c07262  Actualizacion 07/07/2016  [EvoMagix]
-   * dalvik/
-0359b03  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * device/huawei/angler/
-0bfea1e  angler: update fingerprint to MTC19X  [darkobas]
-354913f  snapdragoncamera: disable zsl for angler  [darkobas]
-   * external/flac/
-4de572a  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * frameworks/av/
-e64cd58  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * frameworks/native/
-0408857  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * frameworks/opt/telephony/
-ffb0017  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * hardware/broadcom/wlan/
-165fd9e  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * hardware/libhardware/
-74c7b51  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * hardware/qcom/audio/
-cf6dab9  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * hardware/qcom/media/
-766ef7c  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * kernel/huawei/angler/
-5e04c65  Merge "Merge tag 'android-6.0.1_r0.90' into HEAD" into android-6.0  [Gerrit Code Review]
-111e29f  Merge "Don't show empty tag stats for unprivileged uids" into android-6.0  [Gerrit Code Review]
-0bbef5f  Merge "net: wireless: bcmdhd: security enhancement for BRCM ether type [DO NOT MERRGE]" into android-6.0  [Gerrit Code Review]
-2c03d68  Merge "ASoC: msm: audio-effects: misc fixes in h/w effects (update)" into android-6.0  [Gerrit Code Review]
-697f05a  Merge "tty: Fix unsafe ldisc reference via ioctl(TIOCGETD)" into android-6.0  [Gerrit Code Review]
-83dc5bb  Merge "Replace %p with %pK to prevent leaking kernel address" into android-6.0  [Gerrit Code Review]
-d0a3236  Merge "ASoC: msm: audio-effects: misc fixes in h/w accelerated effect" into android-6.0  [Gerrit Code Review]
-cc9d2b5  Merge "msm: perf: Do not allocate new hw_event if event is duplicate." into android-6.0  [Gerrit Code Review]
-642a218  Merge "msm: kgsl: Avoid race condition in ioctl_syncsource_destroy" into android-6.0  [Gerrit Code Review]
-39f9ba3  Merge "USB: fix invalid memory access in hub_activate()" into android-6.0  [Gerrit Code Review]
-0787dc8  Merge "USB: dwc3: debugfs: Add boundary check in dwc3_store_ep_num()" into android-6.0  [Gerrit Code Review]
-f759ce6  Merge "msm: camera: sensor: Validate step_boundary" into android-6.0  [Gerrit Code Review]
-71200e6  Merge "Revert "arm64: Introduce execute-only page access permissions"" into android-6.0  [Gerrit Code Review]
-10ef454  Merge "msm: kgsl: verify user memory permissions before mapping to GPU driver" into android-6.0  [Gerrit Code Review]
-25a242d  Merge "mdss: mdp3: Validate input from userspace" into android-6.0  [Gerrit Code Review]
-ae9254f  Merge "Revert "mdss: mdp3: Validate input from userspace"" into android-6.0  [Gerrit Code Review]
-a612b9a  Merge "AIO: properly check iovec sizes" into android-6.0  [Gerrit Code Review]
-e86ffb1  Merge "usb: f_serial: Check for SMD data length in GSER_IOCTL" into android-6.0  [Gerrit Code Review]
-0a9cd97  Merge "mdss: mdp3: Validate input from userspace" into android-6.0  [Gerrit Code Review]
-d192fde  Merge "angler_defconfig: disable CONFIG_PFT as it is unsupported" into android-6.0  [Gerrit Code Review]
-5eebad2  Merge "spi-contexthub: fix heap overflow vulnerability" into android-6.0  [Gerrit Code Review]
-006c8b6  Merge "net: wireless: bcmdhd: Verify SSID length (part deux)" into android-6.0  [Gerrit Code Review]
-7fd7984  Merge "msm: camera: isp: Fix warning and errors based on static analysis" into android-6.0  [Gerrit Code Review]
-fbeccd9  Merge "msm: camera: ispif: Validate VFE num input during reset" into android-6.0  [Gerrit Code Review]
-5bb29c0  Merge "msm: kgsl: Add missing checks for alloc size and sglen" into android-6.0  [Gerrit Code Review]
-1f1dcdb  Merge "msm: kgsl: Cast perfcounter query count to an unsigned int" into android-6.0  [Gerrit Code Review]
-b25b034  Merge "ASoC: msm: disable unwanted module" into android-6.0  [Gerrit Code Review]
-3ba4007  Merge "net: wireless: bcmdhd: check privilege on priv cmd" into android-6.0  [Gerrit Code Review]
-49e2250  Merge "ASoC: msm: audio-effects: fix stack overread and heap overwrite" into android-6.0  [Gerrit Code Review]
-bc474df  Merge "msm: mdss: fix possible out-of-bounds and overflow issue in mdp debugfs" into android-6.0  [Gerrit Code Review]
-ee4b942  Merge tag 'android-6.0.1_r0.90' into HEAD  [darkobas]
-   * libcore/
-5acb787  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * packages/apps/Bluetooth/
-2a3d5aa  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * packages/apps/Email/
-c665994  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * packages/apps/FMRadio/
-2462383  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * packages/apps/Nfc/
-10dd7f4  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * packages/apps/PackageInstaller/
-009e5e7  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * packages/apps/UnifiedEmail/
-4c8c5f6  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * packages/services/Telecomm/
-f29e172  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * packages/services/Telephony/
-3080925  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * system/core/
-dfbd605  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [Humberto Borba]
-   * vendor/omni/
-6eca5eb   omni: update init.local.rc  [EvoMagix]
-
-====================
-     07-07-2016
-====================
 
    * android/
-30f04eb  Update Info  [GitHub]
-   * hardware/qcom/bt/
-e2183bd  qcom/bt: add new libbt-vendor for 8996  [maxwen]
-   * packages/apps/OmniSwitch/
-b01f6a7  OmniSwitch: launcher mode day 0 fixes  [Max Weninger]
-   * packages/apps/PerformanceControl/
-a2d16bd  PerformanceControl: make search for I/O scheduler more flexible  [maxwen]
-   * packages/apps/Settings/
-74a5216  fingerpint: Allow devices to configure sensor location  [EvoMagix]
-
-====================
-     07-06-2016
-====================
-
-   * kernel/moto/shamu/
-5737be2  msm: mdss: Adding lcd notifier  [EvoMagix]
-
-====================
-     07-05-2016
-====================
-
-   * art/
-ab918e6  ART: add new arm64 CPU variant kryo  [maxwen]
-   * kernel/moto/shamu/
-2d7d02c  omni_shamu_defconfig:More updates  [EvoMagix]
-
-====================
-     07-04-2016
-====================
-
+8cb4705  Android 6.0.1 Release 54 (MTC19Z)  [GitHub]
    * build/
-5f6549b  releasetools: don't attempt to read fingerprint on unified devices  [EvoMagix]
+cf3ba71  Merge tag 'android-6.0.1_r54' into evoM  [EvoMagix]
+e08f3b6  Merge tag 'android-6.0.1_r54' into android-6.0-merge Android 6.0.1 Release 54 (MTC19Z)  [EvoMagix]
    * frameworks/base/
-1efb5d9  KeyguardSimPinView: don't send dummy request to get remaining pin  [EvoMagix]
-   * kernel/moto/shamu/
-9f2c6f3  Merged branch evoM into evoM  [EvoMagix]
-20d12fb  omni_shamu_defconfig: More Updates  [EvoMagix]
-a261e1c  omni_shamu_defconfig:Update  [EvoMagix]
-2904f97  cpufreq: add zzmoove  [EvoMagix]
-dedd3b7  omni_shamu_defconfig: Enable blu_plug  [EvoMagix]
-   * packages/apps/PackageInstaller/
-2801da0  Revert "DO NOT MERGE Take advantage of new MotionEvent flag to prevent tapjacking."  [maxwen]
-
-====================
-     07-03-2016
-====================
-
+764f38e  Merge tag 'android-6.0.1_r54' into android-6.0-merge  [EvoMagix]
+   * kernel/huawei/angler/
+a25187b  cpufreq: interactive: Correctly reschedule timer for slack_only case  [darkobas]
+245b016  cpufreq: interactive: Add cpuload trace events  [darkobas]
+48a3240  cpufreq: interactive: Replace per-cpu timer with per-policy timer  [darkobas]
+9eeb1eb  cpufreq: interactive: Remove first_cpu field  [darkobas]
+ea05717  cpufreq: interactive: Do not reschedule timer if policy->max changes  [darkobas]
+   * packages/apps/Settings/
+4e9b1d4   Settings: hide learn more button on fingerprint page  it leads to nowhere and crashes  [EvoMagix]
+96d08f5  fingerpint: Allow devices to configure sensor location  [EvoMagix]
+   * packages/apps/SnapdragonCamera/
+388eb86  SnapdragonCamera: hide touch fcous time menu if not supported  [maxwen]
+   * vendor/moto/
+440559c  shamu: update blobs for 6.0.1 (MOB30O)  [EvoMagix]
+   * vendor/omni/
+8d2b3e8  Adapt to 6.0.1_r52 backup whitelist  [EvoMagix]
 
